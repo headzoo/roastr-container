@@ -1,0 +1,39 @@
+{
+  "name": "roastr-container",
+  "description": "A small dependency injection container for node and browsers.",
+  "version": "0.0.1",
+  "author": "Sean Hickey",
+  "bugs": "https://github.com/headzoo/roastr-container/issues",
+  "dependencies": {
+    "lodash.get": "^4.4.2"
+  },
+  "devDependencies": {
+    "babel-core": "^6.14.0",
+    "babel-loader": "^6.2.5",
+    "babel-preset-es2015": "^6.14.0",
+    "jest": "^15.1.1",
+    "rimraf": "^2.5.4",
+    "webpack": "^1.13.2"
+  },
+  "homepage": "https://roastr.io",
+  "keywords": [
+    "container",
+    "dependencies",
+    "dic",
+    "service"
+  ],
+  "license": "MIT",
+  "main": "./dist/container.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/headzoo/roastr-container.git"
+  },
+  "scripts": {
+    "build": "npm run clean && webpack --progress -p",
+    "clean": "rimraf ./dist/container.js",
+    "test": "jest"
+  },
+  "jest": {
+    "testRegex": "/tests/.*"
+  }
+}

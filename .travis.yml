@@ -1,0 +1,7 @@
+language: node_js
+before_install: npm install -g npm@3
+script: travis_retry npm run test
+node_js:
+- '4'
+- '5'
+sudo: false
