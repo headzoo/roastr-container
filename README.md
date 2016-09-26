@@ -104,8 +104,8 @@ container.factory('express', function() {
 
 
 ### Expanding Properties
-Objects stored in the container may be automatically expanded using by
-container get() method using dot notation.
+Objects stored in the container may be automatically expanded using the
+container get() method and dot notation.
 
 ```js
 const Container = require('roastr-container');
