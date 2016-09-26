@@ -3,9 +3,9 @@ roastr-container
 A small dependency injection container for node and browsers.
 
 [![Build Status](https://img.shields.io/travis/headzoo/roastr-container/master.svg?style=flat-square)](https://travis-ci.org/headzoo/roastr-container)
-[![MIT License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](https://raw.githubusercontent.com/headzoo/roastr-container/master/LICENSE.md)
+[![MIT License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](https://raw.githubusercontent.com/headzoo/roastr-container/master/LICENSE)
 
-[![NPM](https://nodei.co/npm/roastr-container.png)](https://nodei.co/npm/roastr-container/)
+[![NPM](https://nodei.co/npm/roastr-container.png)](https://nodei.co/npm/roastr-container)
 
 ### Installation
 
