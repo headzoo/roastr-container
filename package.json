@@ -15,7 +15,7 @@
     "rimraf": "^2.5.4",
     "webpack": "^1.13.2"
   },
-  "homepage": "https://roastr.io",
+  "homepage": "https://github.com/headzoo/roastr-container",
   "keywords": [
     "container",
     "dependencies",
